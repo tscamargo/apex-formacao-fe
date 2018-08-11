@@ -4,54 +4,7 @@
         <title>Curso Front-End</title>
         <meta charset="UTF-8"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <style>
-           
-           *{
-                font-family: 'Open Sans';    
-            }
-            
-            p::first-letter{
-                font-size: 30px;
-                background-color: #cccccc;
-                
-            }
-            
-            p[name]{
-                color: blue;
-            }
-
-            p[name=title]{
-                color:green;
-            }
-
-            p[name~=impar]{
-                color: gold;
-            }
-            
-            p[name|=par]{
-                color: fuchsia;
-            }
-
-            p .aula{
-                font-weight: 900;
-            }
-
-            #dados-label{
-
-                font-family: 'Open Sans';
-                font-weight: 700;
-            }
-            p:hover, fieldset:hover {
-                background-color: beige;
-                font-family: 'Courier New', Courier, monospace;
-            }
-            
-            .container>label{
-                border: solid 2px #000000;
-            }
-
-
-        </style>
+        <link rel="stylesheet" href="seletores.css">
     </head>
 
     <body onload="teste()">
@@ -68,6 +21,15 @@
                 <label>Thiago Schappo Camargo</label>
                 <label>Enzo</label>
                 <span>Pedro</span>
+
+
+                <div class="sub-container">
+
+                    <label>Item 1</label>
+                    <h4>Item 2</h4>
+                    <span>Item 3</span>
+
+                </div>
             </div>
 
             <form>
