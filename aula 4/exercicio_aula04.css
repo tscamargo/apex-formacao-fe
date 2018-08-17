@@ -1,0 +1,99 @@
+.titulo{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 0.67;
+    letter-spacing: 0.2px;
+    color: #9b9b9b;
+    -webkit-text-stroke: 1px #979797;
+    text-align: center;
+
+}
+.bloco, sub{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #494949;
+}
+.bloco>label, .subBloco>label{
+    width: 43px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9b9b9b;
+}
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+select{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.bloco>input{
+    width: 336px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #b9b9b9;
+}
+
+.bloco>select{
+    width: 336px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #b9b9b9;
+}
+
+.bloco>textarea{
+    width: 336px;
+    height: 101px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #b9b9b9;
+}
+.blocoBts{
+    margin-top: 73px;
+}
+
+.bt_clean{
+    border: solid 2.5px #4eb6ff;
+    color: #4eb6ff;
+    background-color: #fff;
+}
+
+.bt_confirm{
+    border: solid 2.5px #4eb6ff;
+    background-color: #13cb65;
+    color: #ffffff;
+}
+
+button:hover{
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    width: 165px;
+    height: 44px;
+    border-radius: 100px;
+}
