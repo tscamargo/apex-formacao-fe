@@ -9,71 +9,80 @@
 </head>
 <body>
     <main>
-        <div>
-            <p class="titulo">Cadastro de Cliente</p>
+        <h1 class="titulo">Cadastro de Cliente</h1>
+        <form>
 
             <div class="bloco">
-                <label>Nome</label><br>
+                <label>Nome</label>
                 <input type="text" placeholder="Primeiro Nome">
             </div>
             <div class="bloco">
-                <label>Sobrenome</label><br>
+                <label>Sobrenome</label>
                 <input type="text" placeholder="Sobrenome">
             </div>
             <div class="bloco">
-                <label>E-Mail</label><br>
+                <label>E-Mail</label>
                 <input type="email" placeholder="eu@google.com.br">
             </div>
             <div class="bloco">
-                <label>Confirmação E-Mail</label><br>
+                <label>Confirmação E-Mail</label>
                 <input type="email" placeholder="eu@google.com.br">
             </div>
             <div class="bloco">
-                <label>Telefone</label><br>
+                <label>Telefone</label>
                 <input type="text" placeholder="(XX) XXXX-XXXX ">
             </div>
             <div class="bloco">
-                <label>Data de Nascimento</label><br>
+                <label>Data de Nascimento</label>
                 <input type="date">
             </div>
             <div class="bloco">
-                <label>Estado</label><br>
+                <label>Estado</label>
                 <select>
                     <option>PR</option>
                     <option>SC</option>
                     <option>RS</option>
                 </select>
+                <div class="bloco1">
+                        <div class="subBloco">
+                            <label>Sexo</label>
+                            <span class="spanRadio">
+                                <input name="Sexo" type="radio" value="Masculino"> Masculino
+                            </span>
+                            <span class="spanRadio">
+                                <input name="Sexo" type="radio" value="Feminino"> Feminino
+                            </span>
+                        </div>
+                        <div class="subBloco">
+                            <label>Módulo</label>
+                            <span class="spanRadio">
+                                <input name="Modulo" type="checkbox" value="RH">RH
+                            </span>
+                            <span class="spanRadio">
+                                <input name="Modulo" type="checkbox" value="Fiscal">Fiscal
+                            </span>
+                            <span class="spanRadio">
+                            <input name="Modulo" type="checkbox" value="financeiro">Financeiro
+                            </span> 
+                        </div>
+                    </div>
             </div>
 
             <div class="bloco">
-                <label>Observação</label><br>
+                <label>Observação</label>
                 <textarea placeholder="Digite sua Observação aqui."></textarea>
             </div>
 
-            <div class="bloco">
-                <div class="subBloco">
-                    <label>Sexo</label><br>
-                    <input type="radio" value="Masculino"> Masculino <br>
-                    <input type="radio" value="Feminino"> Feminino <br>
-                </div>
-                <div class="subBloco">
-                    <label>Sexo</label><br>
-                    <input type="checkbox" value="RH">RH <br>
-                    <input type="checkbox" value="Fiscal">Fiscal <br>
-                    <input type="checkbox" value="financeiro">Financeiro <br>
-                </div>
-            </div>
+            <div class="bloco"></div>
 
-            <div class="bloco blocoBts">
+            <div class="blocoBts">
                 <button class="bt_clean">Cancelar</button>
                 <button class="bt_confirm">Salvar</button>
             </div>
 
 
 
-  
-    </div>
+        </form>
     </main>
-    
 </body>
 </html>

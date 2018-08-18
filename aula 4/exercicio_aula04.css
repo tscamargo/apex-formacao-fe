@@ -1,3 +1,46 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+form{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 10px 5px;
+}
+
+.bloco1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 5px;
+}
+.subBloco{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px 5px;
+}
+.blocoBts{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    margin: 10px 5px;
+    justify-content: center;
+}
+
 .titulo{
     
     font-family: 'Open Sans', sans-serif;
@@ -10,16 +53,23 @@
     text-align: center;
 
 }
-.bloco, sub{
+
+.bloco, subBloco{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #494949;
 }
 .bloco>label, .subBloco>label{
-    width: 43px;
+
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: bold;
+    color: #9b9b9b;
+}
+
+.spanRadio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     color: #9b9b9b;
 }
 
@@ -29,6 +79,7 @@ input{
     color: #000;
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
+
 select{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -42,7 +93,7 @@ textarea{
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 .bloco>input{
-    width: 336px;
+
     height: 39px;
     border-radius: 4px;
     background-color: #ffffff;
@@ -50,7 +101,6 @@ textarea{
 }
 
 .bloco>select{
-    width: 336px;
     height: 39px;
     border-radius: 4px;
     background-color: #ffffff;
@@ -58,15 +108,12 @@ textarea{
 }
 
 .bloco>textarea{
-    width: 336px;
     height: 101px;
     border-radius: 4px;
     background-color: #ffffff;
     border: solid 1px #b9b9b9;
 }
-.blocoBts{
-    margin-top: 73px;
-}
+
 
 .bt_clean{
     border: solid 2.5px #4eb6ff;
@@ -75,25 +122,31 @@ textarea{
 }
 
 .bt_confirm{
-    border: solid 2.5px #4eb6ff;
+    border: solid 2.5px #13cb65;
     background-color: #13cb65;
     color: #ffffff;
 }
 
 button:hover{
+    cursor: pointer;
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
 }
-
+button:focus {
+    outline: none;
+}
 button{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
+  
     line-height: 1;
     letter-spacing: normal;
     text-align: center;
     width: 165px;
     height: 44px;
     border-radius: 100px;
+    margin: 10px;
 }
